@@ -1,0 +1,20 @@
+#machalilla {
+    background-color: #714010;
+    border-color: #714010;
+}
+
+#texto_clases_turismos {
+    font-style: normal;
+    color: #714010;
+}
+
+#titulo_tipo_turismo {
+    font-style: normal;
+    color: #714010;
+    animation-fill-mode: backwards;
+}
+
+#mapa_mundi {
+    background-color: #714010;
+    border-color: dodgerblue;
+}
