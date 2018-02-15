@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html class="wide wow-animation scrollTo smoothscroll" lang="es">
   <head>
-    <!-- Site Title-->
+   <!--Títulos-->
     <title>Viajes hechos por viajeros para viajeros/Toquilla Travel</title>
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">  
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="Turismo Internacional" content="viajes dentro y fuera del Ecuador">
+    <meta name="Turismo Internacional/Toquilla Travel" content="viajes dentro y fuera del Ecuador">
     <link rel="icon" href="imagenes/logos/logo_icon.gif" type="image/x-icon">
     
-    <!-- Estilos-->
+    <!--Estilos-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/miestilo.css">
-
+    
+    <link rel="stylesheet" href="css/style-sunset.css">
+    <link rel="stylesheet" href="css/miestilo.css">  
 		
   </head>
   <body>
-    <!-- Page-->
+    <!-- Pagina-->
     <div class="page text-center">
-      <!-- Page Head-->
-      <header class="page-head slider-menu-position">
-        <!-- RD Navbar Transparent-->
+      <!-- Cabecera de página-->
+      <header class="page-head">
+        <!-- Barra de navegación-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+          <nav class="rd-navbar rd-navbar-default rd-navbar-light" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
             <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
+              <!-- Paneles de Barra de navegación-->
               <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
+                <!-- Botón de panel en móvil-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
-                <!--Navbar Brand-->
-                <!--logo de toquilla -->
-                  <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='imagenes/logos/letras_logo.gif' alt=''/></a></div>
+                <!--Logo de la izquierda-->
+                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='200' height='40' src='imagenes/logos/letras_logo.gif' alt=''/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
-                    <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='imagenes/letras_logo.gif' alt=''/></a></div>
-                    
-                    <!-- barra de busqueda -->
+                    <!--Barra del móvil-->
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='200' height='40' src='imagenes/logos/letras_logo.gif' alt=''/></a></div>
                     <div class="form-search-wrap">
+                      <!-- Formulario de Búsqueda-->
                       <form class="form-search rd-search" action="search-results.html" method="POST">
                         <div class="form-group">
-                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
+                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Buscar</label>
                           <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
                         </div>
                         <button class="form-search-submit" type="submit"><span class="mdi mdi-magnify"></span></button>
                       </form>
                     </div>
-                    
-                    <!--barra de menús-->
+                    <!-- Barra de paneles-->
                     <ul class="rd-navbar-nav">
                       <li><a href="#quienes_somos"><span>Qué es Toquilla Travel</span></a></li>
               
-                      <li><a href="portfolio-grid-3-columns.html"><span>Contáctenos</span></a></li>
-                      
                       <li><a href="blog-default-left-sidebar.html"><span>Cuéntanos tu experiencia</span></a>
                         <ul class="rd-navbar-dropdown">
                           <li><a href="#"><span class="text-middle">Blog Classic</span></a>
@@ -121,7 +117,6 @@
                                 <div class="row">
                                 
                               </div>
-                                
                             </div>
                           </div>
                         </div>
@@ -129,33 +124,33 @@
                     </ul>
                   </div>
                 </div>
-                <!--RD Navbar Search-->
+                  
+                <!--Barra de navegación de busqueda-->
                 <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
-                    
                   <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" method="POST">
                     <div class="form-group">
-                      <label class="form-label" for="rd-navbar-search-form-input">Escribe aquí tu búsqueda</label>
+                      <label class="form-label" for="rd-navbar-search-form-input">escribe una palabra o frase clave</label>
                       <input class="rd-navbar-search-form-input form-control form-control-gray-lightest" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
                     </div>
                   </form>
-                  
                 </div>
-              
-              
+                  
               </div>
             </div>
           </nav>
         </div>
-        <section>
-            <div class="bg-vide" data-vide-bg="videos/video_2/video_2" data-vide-options="posterType: jpg">
+     </header>
+        
+    <section>
+        <div class="bg-vide" data-vide-bg="videos/video_portada/video_portada-lg" data-vide-options="posterType: jpg">
                 <section class="context-dark bg-overlay-gray-darkest">
                       <div class="shell">
                         <div class="range">
                           <div class="section-110 section-cover range range-md-center range-md-middle">
                             <div class="cell-md-12">
-                              <h1 class="text-uppercase text-ubold text-spacing-60"><span class="big">Viaja con nosotros</span></h1>
+                              <h1 class="text-uppercase text-ubold text-spacing-60"><span class="big">Viaja diferente</span></h1>
                               <h4 class="offset-top-14 offset-sm-top-20 text-light">Manabi te espera!, conoce nuestros paquetes de viaje y decide vivir una experiencia de vida.<span class="veil reveal-sm-block"></span></h4>
-                              <div class="group offset-top-14 offset-sm-top-30"><a class="btn btn-primary" href="make-an-appointment.html">Ven a Manabí</a></div>
+                              <div class="group offset-top-14 offset-sm-top-30"><a id="machalilla" class="btn btn-primary" href="make-an-appointment.html">Ven a Machalilla</a></div>
                             </div>
                           </div>
                         </div>
@@ -163,164 +158,305 @@
                     </section>
                   </div>
         </section>
-      </header>
-      <!-- Page Contents-->
+    
+     
+      <!-- Contenidos de página-->
       <main class="page-content">
-      
-      
-        <!-- Section main future-->
-        <section class="context-dark">
-          <section class="section-66 section-top-50 bg-mantis section-triangle section-triangle-bottom">
-            <div class="shell">
-              <div class="range range-sm-center">
-                <h2><span class="big">Un Turismo diferente</span></h2>
-             
+          
+        <!-- Mapa mundi-->
+        <section style="overflow: hidden;">
+            <hr class="divider hr-lg-left-0 bg-blue-gray">
+           <h2 id="titulo_mapamundi"><span class="big">Dónde será tu próxima aventura</span></h2>
+          <div class="mock-up-wrapper veil reveal-sm-inline-block">
+            
+              <div class="mock-up-desktop-wrapper wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0s"><img class="mock-up-desktop img-responsive" src="imagenes/mapa_mundi/mapamundi.gif" width="815" height="808" alt=""></div>
+            
+              <div class="mock-up-circle veil reveal-md-block wow zoomIn" data-wow-delay="1.6s"><img src="images/moqups/moqup-home-ellipse.png" width="309" height="315" alt=""></div>
+            
+              <div class="mock-up-mobile-wrapper wow fadeInUp" data-wow-delay="0.9s"><img class="mock-up-mobile" src="images/moqups/moqup-home-mobile.png" width="247" height="470" alt=""></div>
+          </div>
+        </section>
+          
+        <!-- Acerca de nosotros-->
+        <section class="section-98 section-md-110">
+          <div class="shell">
+            <div class="range text-lg-left">
+              <div class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-push-6">
+                <div class="shadow-drop-xl">
+                                  <!-- RD Video-->
+                            <div class="rd-video-player play-on-scroll" data-rd-video-path="videos/video_3/video_3" data-rd-video-title="Turismo Cultural y Nacional" data-rd-video-muted="true" data-rd-video-preview="imagenes/2.jpg" data-rd-video-preload="false">
+                                    <div class="rd-video-wrap embed-responsive-16by9">
+                                      <div class="rd-video-preloader"></div>
+                                      <video preload="metadata"></video>
+                                      <div class="rd-video-preview"></div>
+                                      <div class="rd-video-top-controls">
+                                        <!-- Titulo-->
+                                          <span class="rd-video-title"></span><a class="rd-video-fullscreen mdi mdi-fullscreen rd-video-icon" href="#"></a>
+                                      </div>
+                                      <div class="rd-video-controls">
+                                        <div class="rd-video-controls-buttons">
+                                          <!-- Play\Pause button-->
+                                            <a class="rd-video-play-pause mdi mdi-play" href="#"></a>
+                                          <!-- Progress bar-->
+                                        </div>
+                                        <div class="rd-video-progress-bar"></div>
+                                        <div class="rd-video-time"><span class="rd-video-current-time"></span> <span class="rd-video-time-divider">:</span>  <span class="rd-video-duration"></span></div>
+                                        <div class="rd-video-volume-wrap">
+                                          <!-- Volume button--><a class="rd-video-volume mdi mdi-volume-high rd-video-icon" href="#"></a>
+                                          <div class="rd-video-volume-bar-wrap">
+                                            <!-- Volume bar-->
+                                            <div class="rd-video-volume-bar"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                            </div>
+                </div>
+              </div>
+              <div id="quienes_somos"class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-pull-6 offset-top-30 offset-lg-top-0">
+                <div class="inset-lg-right-20">
+                  <h3 id="texto_cafe">Nuestro Concepto</h3>
+                  <hr class="divider hr-lg-left-0 bg-blue-gray">
+                  <p id="texto_cafe2">Toquilla Travel es un turismo alternativo y diferente, sustentable que garantiza el bienestar del medio ambiente, es un turismo social que ayuda y beneficia a pequeñas comunidades, preservando la cultura y el medio ambiente en todos nuestros paquetes. </p>
+                </div>
               </div>
             </div>
-            <svg class="svg-triangle-bottom" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <defs>
-                <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:rgb(99,189,98);stop-opacity:1;"></stop>
-                  <stop offset="100%" style="stop-color:rgb(99,189,98);stop-opacity:1;"></stop>
-                </lineargradient>
-              </defs>
-              <polyline points="0,0 60,0 29,29" fill="url(#grad1)"></polyline>
-            </svg>
-          </section>
-          <!-- Parallax-->
-          <section class="section">
-                    <div class="parallax-container" data-parallax-img="imagenes/7.jpg">
-                      <div class="parallax-content">
-                        <div class="shell">
-                          <div class="range range-xs-center section-top-124 section-bottom-110">
-                            <div class="cell-xs-10 cell-sm-11 cell-lg-12">
-                              <div class="range range-xs-center">
-                                <div class="cell-sm-6 cell-lg-4">
-                                         <div>
-                                             <a><img src="imagenes/turismo_sustentable.gif"></a>
-                                        </div>
-                                          <div>
-                                            <h4 class="text-uppercase offset-top-30 text-bold">Ecoturismo</h4>
-                                            <p class="inset-left-7p inset-right-7p">Turismo Sustentable y amigable con el ambiente</p>
-                                          </div>
+          </div>
+        </section>
+       
+       <section class="section-34 section-top-66 context-dark" style="background: #191919 url(imagenes/7.jpg);"><a class="btn btn-lg btn-default btn-anis-effect">Turismo Sostenible</a></section>
+        
+          <!-- Nuestros Turismos-->
+        <section class="section-98 section-md-124" id="home-section-childs">
+          <div class="shell-wide">
+            <h2 id="titulo_turismo" ><span class="big">Tipos de Turismo que te ofrecemos</span></h2>
+            <div class="offset-top-41">
+                      <div class="isotope-wrap">
+                        <div class="row">
+                          <!-- Filtros-->
+                          <div class="col-lg-12">
+                            <div class="isotope-filters isotope-filters-horizontal">
+                              <ul class="list-inline list-inline-sm">
+                                <li class="section-relative">
+                                  <button class="isotope-filters-toggle btn btn-sm btn-default" data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true"><span class="caret"></span></button>
+                                  <ul class="list-sm-inline isotope-filters-list" id="isotope-1">
+                                    <li><a class="text-bold active" data-isotope-filter="*" data-isotope-group="gallery" href="#">Todos</a></li>
+                                    <li><a class="text-bold" data-isotope-filter="Turismo de Aventura" data-isotope-group="gallery" href="#">Turismo de Aventura</a></li>
+                                    <li><a class="text-bold" data-isotope-filter="Etnoturismo" data-isotope-group="gallery" href="#">Etnoturismo</a></li>
+                                    <li><a class="text-bold" data-isotope-filter="Turismo Comunitario" data-isotope-group="gallery" href="#">Turismo Comunitario</a></li>
+                                    <li><a class="text-bold" data-isotope-filter="Ecoturismo" data-isotope-group="gallery" href="#">Ecoturismo</a></li>
+                                    <li><a class="text-bold" data-isotope-filter="Agroturismo" data-isotope-group="gallery" href="#">Agroturismo</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- Contenido de los filtros-->
+                          <div class="col-lg-12 offset-top-34">
+                            <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery">
+                              <!-- Isotope-->
+                              <div class="row">
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo de Aventura">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic"  target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/aventura-1.jpg" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Parapente</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Un turismo de naturaleza</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
                                 </div>
-                                <div class="cell-sm-6 cell-lg-4 offset-top-66 offset-sm-top-0">
-                                         <div>
-                                             <a><img src="imagenes/turismo_comunitario.gif"></a>
-                                        </div>
-                                          <div>
-                                            <h4 class="text-uppercase offset-top-30 text-bold">Turismo Comunitario</h4>
-                                            <p class="inset-left-7p inset-right-7p">Turismo social y de beneficio para la localidad</p>
-                                          </div>
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Agroturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/agro-1.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Paseos campestres</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Turismo Rústico</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
                                 </div>
-                                <div class="cell-sm-6 cell-lg-4 offset-top-66 offset-lg-top-0">
-                                          <div>
-                                             <a><img src="imagenes/agroturismo.gif"></a>
-                                        </div>
-                                          <div>
-                                            <h4 class="text-uppercase offset-top-30 text-bold">Agroturismo</h4>
-                                            <p class="inset-left-7p inset-right-7p">Un turismo no urbano y rústico.</p>
-                                          </div>
+                                  
+                               <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Ecoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/ecoturismo-1.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Sustentable</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Amigable con el ambientel</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
                                 </div>
-                                <div class="cell-sm-6 cell-lg-4 offset-top-66">
-                                         <div>
-                                             <a><img src="imagenes/turismo-de-aventura.gif"></a>
-                                        </div>
-                                          <div>
-                                            <h4 class="text-uppercase offset-top-30 text-bold">Turismo de aventura</h4>
-                                            <p class="inset-left-7p inset-right-7p">Un turismo de naturaleza, menos invasivo para la localidad que te invita a desafiar tus capacidades físicas.</p>
-                                          </div>
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo de Aventura">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/aventura-3.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Esqui acuático</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Menos invasivo para la localidad</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
                                 </div>
-                                <div class="cell-sm-6 cell-lg-4 offset-top-66">
-                                          <div>
-                                             <a><img src="imagenes/ETNOTURISMO_1.png"></a>
-                                        </div>
-                                          <div>
-                                            <h4 class="text-uppercase offset-top-30 text-bold">Ednoturismo</h4>
-                                            <p class="inset-left-7p inset-right-7p">Un turismo que te llevará por los puelbos y las raúices culturales de Manabí, aprendiendo de su cultura y tradiciones.</p>
-                                          </div>
+                                  
+                                
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Ecoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/ecoturismo-3.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Expontáneo</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Poco imbasivo</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                  
+                                
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Agroturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/agro-2.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Experiencias únicas</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Actividades agrícolas</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Agroturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/agro-3.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Siembra</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Cuidamos del ambiente</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                  
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo Comunitario">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/comunitario-1.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Comunidades</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Beneficio para la Comunidad</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                
+                                 <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo de Aventura">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic"  target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/aventura-2.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Surfing</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Desafia tus capacidades físicas</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo Comunitario">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/comunitario-2.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Actividades</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Cuidado del ecosistema</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Turismo Comunitario">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/comunitario-3.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Paseos</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Turismo Social</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                  
+                               
+                                
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Etnoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/etonoturismo-2.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Aprendiendo</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Un turismo local y diferente</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Etnoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/etonoturismo-3.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Tradiciones</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Conservando lo esencial</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                            
+                                  <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Etnoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/etnoturismo-1.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Raíces culturales</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">Viaje Cultural</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+                                  
+                                <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Ecoturismo">
+                                  <div class="shadow-variant-2"><a class="thumbnail-classic" target="_blank">
+                                              <figure><img width="570" height="428" src="imagenes/turismo/ecoturismo-2.gif" alt="">
+                                                <figcaption class="thumbnail-classic-caption text-center">
+                                                  <h4 class="thumbnail-classic-title text-uppercase text-light">Diverso</h4>
+                                                  <p class="thumbnail-classic-desc text-bold text-uppercase veil reveal-xs-block">turismo ecológico</p>
+                                                </figcaption>
+                                              </figure></a>
+                                  </div>
+                                </div>
+
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-          </section>
-        </section>
-      
-        <!-- About Us-->
-        <section class="section-98 section-md-110">
-          <div class="shell">
-            <div class="range text-lg-left">
-              <div class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-push-6">
-                <div class="shadow-drop-xl">
-                          <!-- Media Elements-->
-                                  <!-- RD Video-->
-                                  <div class="rd-video-player play-on-scroll" data-rd-video-path="videos/video_3/video_3" data-rd-video-title="Turismo Cultural y natural" data-rd-video-muted="true" data-rd-video-preview="imagenes/" data-rd-video-preload="false">
-                                    <div class="rd-video-wrap embed-responsive-16by9">
-                                      <div class="rd-video-preloader"></div>
-                                      <video preload="metadata"></video>
-                                      <div class="rd-video-preview"></div>
-                                      <div class="rd-video-top-controls">
-                                        <!-- Title--><span class="rd-video-title"></span><a class="rd-video-fullscreen mdi mdi-fullscreen rd-video-icon" href="#"></a>
-                                      </div>
-                                      <div class="rd-video-controls">
-                                        <div class="rd-video-controls-buttons">
-                                         <a class="rd-video-play-pause mdi mdi-play" href="#"></a>
-                                        </div>
-                                        <div class="rd-video-progress-bar"></div>
-                                        <div class="rd-video-time"><span class="rd-video-current-time"></span> <span class="rd-video-time-divider">:</span>  <span class="rd-video-duration"></span></div>
-                                        <div class="rd-video-volume-wrap">
-                                          <a class="rd-video-volume mdi mdi-volume-high rd-video-icon" href="#"></a>
-                                          <div class="rd-video-volume-bar-wrap">
-                                            <div class="rd-video-volume-bar"></div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                </div>
-              </div>
-              <div id="quienes_somos" class="cell-sm-preffix-2 cell-sm-8 cell-lg-preffix-0 cell-lg-6 cell-lg-pull-6 
-                                             offset-top-30 offset-lg-top-0">
-                <div class="inset-lg-right-20">
-                  <h3>Nuestro Concepto</h3>
-                  <hr class="divider hr-lg-left-0 bg-blue-gray">
-                  <p>Toquilla Travel es un turismo alternativo y diferente, sustentable que garantiza el bienestar del medio ambiente, es un turismo social que ayuda y beneficia a pequeñas comunidades, preservando la cultura y el medio ambiente en todos nuestros paquetes.   
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
         </section>
           
-        <section class="section-34 section-top-66 context-dark" style="background: #191919 url(imagenes/8.jpg);"><a class="btn btn-lg btn-default btn-anis-effect">Turismo alternativo</a></section>
-        
-        
         <div class="shell-fluid">
           <hr class="hr bg-gray-lighter">
         </div>
-        <!-- section our team-->
+          
+        <!-- Toquilla Travel-->
         <section class="section-top-66 section-bottom-110">
           <div class="shell">
-            <h2><span class="big">Conoce a nuestro Gerente.</span></h2>
-            <hr class="divider bg-mantis">
+            <h2 id="titulo_redes"><span class="big">Síguenos en nuestras redes</span></h2>
             <div class="range range-xs-center offset-top-66">
               <div class="cell-sm-8 cell-lg-12">
                 <div class="range">
-                  <div class="cell-sm-8 cell-lg-12"><img class="img-circle img-responsive center-block" src="imagenes/santiago.jpg" width="140" height="140" alt="">
+                  <div class="cell-sm-8 cell-lg-12"><img src="imagenes/logos/logo.gif" width="220" height="180" alt="">
                             <div class="offset-top-24">
-                              <h5 class="text-bold"><a href="team-member.html">Santiago Suárez</a></h5>
+                              <h5 class="text-bold"><a>Operadora de Turismo</a></h5>
                             </div>
-                            <p class="offset-top-4 small text-bold text-malibu">Gerente</p>
-                            <hr class="divider">
+                            <p class="offset-top-6 small text-bold text-malibu">Manabí, Ecuador</p>
                                     <ul class="list-inline list-inline-xs">
-                                      <li><a class="icon fa fa-facebook icon-xs icon-circle icon-darker-filled" href="https://www.facebook.com/santhysuarezb"></a></li>
-                                      <li><a class="icon fa fa-google-plus icon-xs icon-circle icon-darker-filled" 
-                                             href="http://www.google.com"></a></li>
+                                      <li><a class="icon fa fa-facebook icon-xs icon-circle icon-darker-filled" 
+                                             href="https://www.facebook.com/ToquillaTravel/"></a></li>
+                                      <li><a class="icon fa fa-instagram icon-xs icon-circle icon-darker-filled" 
+                                             href="http://www.instagram.com"></a></li>
                                     </ul>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -328,21 +464,35 @@
         </section>
       
       </main>
-     
+      <!-- Pié de página-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
         <div class="shell">
           <div class="range range-sm-center text-lg-left">
             <div class="cell-sm-8 cell-md-12">
               <div class="range range-xs-center">
-              
-                <div class="cell-xs-12 offset-top-41 cell-md-5 offset-md-top-0 text-md-left cell-lg-4 cell-lg-push-2">
-                  <h6 class="text-uppercase text-spacing-60">Suscripción</h6>
+                  
+                <div class="cell-xs-12 offset-top-41 cell-md-5 offset-md-top-0 text-md-left cell-lg-6 cell-lg-push-2">
+                  <h6 class="text-uppercase text-spacing-60">Nuestra Empresa</h6>
+                  <div class="reveal-block">
+                    <div class="reveal-inline-block">
+                      <ul class="list list-marked">
+                        <li><a href="about-us.html">Acerca de Toquilla Travel</a></li>
+                        <li><a href="pages/contactenos.html">Contáctanos</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="pricing.html">Preguntas Frecuentes</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                  
+                <div class="cell-xs-12 offset-top-41 cell-md-5 offset-md-top-0 text-md-left cell-lg-6 cell-lg-push-2">
+                  <h6 class="text-uppercase text-spacing-60">Suscríbete</h6>
                   <p>Mantente al tanto de nuestras novedades y paquetes. Ingresa tu correo y suscríbete a nuestro boletín de información.</p>
                   <div class="offset-top-30">
                           <form class="rd-mailform" data-form-output="form-subscribe-footer" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                             <div class="form-group">
                               <div class="input-group input-group-sm"><span class="input-group-addon"><span class="input-group-icon mdi mdi-email"></span></span>
-                                <input class="form-control" placeholder="Escribe tu correo" type="email" name="email" data-constraints="@Required @Email"><span class="input-group-btn">
+                                <input class="form-control" placeholder="E-Mail" type="email" name="email" data-constraints="@Required @Email"><span class="input-group-btn">
                                   <button class="btn btn-sm btn-primary" type="submit">Registrar</button></span>
                               </div>
                             </div>
@@ -350,7 +500,8 @@
                           </form>
                   </div>
                 </div>
-              
+                
+                
               </div>
             </div>
           </div>
@@ -360,8 +511,9 @@
         </div>
       </footer>
     </div>
-    <!-- Global RD Mailform Output-->
+      
     <div class="snackbars" id="form-output-global"></div>
+    
     <!-- JavaScript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
