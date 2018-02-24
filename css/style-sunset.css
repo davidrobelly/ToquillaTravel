@@ -1385,7 +1385,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  color: #858585;
+  /*background-image: url(../imagenes/7.jpg);*/ 
   background-color: #110a06;
 }
 
@@ -45505,4 +45505,14 @@ pre .chunk {
 .parallax-content {
   position: relative;
   z-index: 1;
+}
+
+.swiper-slide .bg-vide {
+	height: 100%;
+	z-index: auto;
+}
+
+.bg-vide {
+	position: relative;
+	z-index: 0;
 }
