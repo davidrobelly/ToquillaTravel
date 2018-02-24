@@ -45506,13 +45506,3 @@ pre .chunk {
   position: relative;
   z-index: 1;
 }
-
-.swiper-slide .bg-vide {
-	height: 100%;
-	z-index: auto;
-}
-
-.bg-vide {
-	position: relative;
-	z-index: 0;
-}
