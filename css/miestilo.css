@@ -3,9 +3,9 @@
     border-color: #714010;
 }
 
-#texto_clases_turismos {
+#texto {
     font-style: normal;
-    color: #714010;
+    color: white;
 }
 
 #titulo_tipo_turismo {
@@ -41,6 +41,7 @@
 }
 
 #video_portada {
-    background-image: url("../imagenes/7.jpg");
+    background-image: url("../imagenes/slyer/1.jpg");
 }
+
 

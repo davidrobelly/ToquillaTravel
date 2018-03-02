@@ -24838,7 +24838,17 @@ a.icon {
 
 a.icon-rect.fa-facebook:hover, a.icon-circle.fa-facebook:hover, a.icon-outlined.fa-facebook:hover, a.icon-rounded.fa-facebook:hover {
   color: #fff;
-  background: #0956b5;
+  background: #7B7D35;
+}
+
+a.icon-rect.fa-instagram:hover, a.icon-circle.fa-instagram:hover, a.icon-outlined.fa-instagram:hover, a.icon-rounded.fa-instagram:hover {
+  color: #fff;
+  background: #7B7D35;
+}
+
+a.icon-rect.fa-google:hover, a.icon-circle.fa-google:hover, a.icon-outlined.fa-google:hover, a.icon-rounded.fa-google:hover {
+  color: #fff;
+  background: #7B7D35;
 }
 
 a.icon-rect.fa-twitter:hover, a.icon-circle.fa-twitter:hover, a.icon-outlined.fa-twitter:hover, a.icon-rounded.fa-twitter:hover {
