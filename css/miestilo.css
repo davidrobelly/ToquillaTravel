@@ -95,3 +95,12 @@ background-image: url(../imagenes/slyer/7-2.jpg);
 #boton {
     color: white;
 }
+
+#fondo_404 {
+    background-image: url(../imagenes/fondo/mochileros-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #7A7E34;
+}
