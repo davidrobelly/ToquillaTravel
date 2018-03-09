@@ -72,7 +72,7 @@
 
 #viaja_diferente {
     background-image: url(../imagenes/imagenes_promocionales/8.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -84,7 +84,7 @@
 #viaja_diferente {
 
 background-image: url(../imagenes/imagenes_promocionales/8-2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
