@@ -2,7 +2,7 @@
 <html class="wide wow-animation scrollTo smoothscroll" lang="es">
   <head>
    <!--Títulos-->
-    <title>Visita Manabí</title>
+    <title>Ven a Manabí</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">  
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -15,13 +15,65 @@
     
     <link rel="stylesheet" href="../css/style-sunset.css">
     <link rel="stylesheet" href="../css/miestilo.css">  
-    	
-  </head>
-    <body>
-    
-     <!-- Pagina-->
-    <div class="page text-center">
 
+  </head>
+  <body>
+    <!-- Pagina-->
+    <div class="page text-center">
+      <!-- Cabecera de página-->
+      <header class="page-head">
+        <!-- Barra de navegación-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-default rd-navbar-light" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+            <div class="rd-navbar-inner">
+              <!-- Paneles de Barra de navegación-->
+              <div class="rd-navbar-panel">
+                <!-- Botón de panel en móvil-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
+                <!--Logo de la izquierda-->
+                <div class="rd-navbar-brand"><a href="../index.html"><img style='margin-top: -5px;margin-left: -15px;' width='200' height='40' src='../imagenes/logos_cambiados/letras_logo.gif' alt=''/></a></div>
+              </div>
+              <div class="rd-navbar-menu-wrap">
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-mobile-scroll">
+                    <!--Barra del móvil-->
+                    <div class="rd-navbar-mobile-brand"><a href="../index.html"><img style='margin-top: -5px;margin-left: -15px;' width='200' height='40' src='../imagenes/logos_cambiados/letras_logo.gif' alt=''/></a></div>
+                    <div class="form-search-wrap">
+                      <!-- Formulario de Búsqueda-->
+                      <form class="form-search rd-search" action="search-results.html" method="POST">
+                        <div class="form-group">
+                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Buscar</label>
+                          <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
+                        </div>
+                        <button class="form-search-submit" type="submit"><span class="mdi mdi-magnify"></span></button>
+                      </form>
+                    </div>
+                    <!-- Barra de paneles-->
+                    <ul class="rd-navbar-nav">
+                      <li><a href="../index.html#quienes_somos"><span>Qué es Toquilla Travel</span></a></li>
+                      <li><a href="../pages/404.html"><span>Destinos</span></a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="../pages/404.html"><span class="text-middle">¿a dónde quieres ir?</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--Barra de navegación de busqueda-->
+                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
+                  <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" method="POST">
+                    <div class="form-group">
+                      <label class="form-label" for="rd-navbar-search-form-input">escribe una palabra o frase clave</label>
+                      <input class="rd-navbar-search-form-input form-control form-control-gray-lightest" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
+                    </div>
+                  </form>
+                </div> 
+              </div>
+            </div>
+          </nav>
+        </div>     
+     </header>
+        
       <!-- Contenidos de página-->
       <main class="page-content">
     
@@ -30,21 +82,20 @@
                         <div class="range">
                           <div class="section-110 section-md-110 range range-md-center range-md-middle">
                             <div class="cell-md-12">
-                              <h1 id="texto" class="text-uppercase text-ubold text-spacing-60"><span class="big">Viaja diferente</span></h1>
-                              <h4 id="texto" class="offset-top-14 offset-sm-top-20 text-light">Manabi te espera!, conoce nuestros paquetes de viaje y decide vivir una experiencia de vida.<span class="veil reveal-sm-block"></span></h4>
-                              <a target="_blank" href="../pages/paquetes_manabi.html" id="boton" class="btn btn-lg btn-default btn-anis-effect"
-                                 onclick="window.open(this.href, this.target, 'width=1200,height=1200'); return false;">Ven a la Ruta del Sol</a>
+                              <h1 id="texto" class="text-uppercase text-ubold text-spacing-60"><span class="big"><strong>Viajes con encanto ancestral</strong></span></h1>
+                              <h4 id="texto" class="offset-top-14 offset-sm-top-20 text-light">
+                                  <span class="veil reveal-sm-block">El sombrero de paja Toquilla es una de las actividades artesanales más representativas del Ecuador por su importancia para la historia social y económica del país, los tejedores o artesanos se asientan en las costas ecuatorianas del Oceano Pacifico, donde su producto se mezcla  con uno de los ecosistemas más importantes y protegidos por los ecuatorianos, como es el parque Nacional Machalilla, naturaleza pura que brinda los  paisajes más bellos de la costa, lindas playas, Islas de la Plata y Salango, bosque seco y húmedo, pl.ataforma marina con fauna y flora similar a la de las Islas Galápagos, lugar donde una gran cultura se asentó por más de cinco mil años dejando historia, tradiciones y costumbres que hoy se plasman a través de  la arqueológia y las manos de su gente. </span></h4>
+                              <a href="../pages/paquetes_manabi.html" id="boton" class="btn btn-lg btn-default btn-anis-effect">Ven a la Ruta del Sol</a>
                             </div>
                           </div>
                         </div>
                       </div>
             </section>
    
-      </main>
-
-    </div>
+        </main>
     
-     <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+     <!-- Pié de página-->
+      <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
         <div class="shell">
           <div class="range range-sm-center text-lg-left">
             <div class="cell-sm-8 cell-md-12">
@@ -55,8 +106,8 @@
                   <div class="reveal-block">
                     <div class="reveal-inline-block">
                       <ul class="list list-marked">
-                        <li><a href="pages/nosotros.html">Acerca de Toquilla Travel</a></li>
-                        <li><a href="pages/contactenos.html">Contáctanos</a></li>
+                        <li><a href="../pages/nosotros.html">Acerca de Toquilla Travel</a></li>
+                        <li><a href="../pages/contactenos.html">Contáctanos</a></li>
                       </ul>
                     </div>
                   </div>
@@ -87,17 +138,12 @@
           <p class="small text-darker">Toquilla Travel &copy; <span class="copyright-year"></span> . <a>Derechos Reservados</a></p>
         </div>
       </footer>
-      
+      </div>
     <div class="snackbars" id="form-output-global"></div>
     
     <!-- JavaScript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="../js/core.min.js"></script>
+    <script src="../js/script.js"></script>
 
-      <!--slyer-->
-     
-	
   </body>
 </html>
